@@ -1,0 +1,16 @@
+casa = float(input('Digite o valor da casa: '))
+salario = float(input('Digite o valor do seu salário: '))
+anos = int(input('Digite em quantos anos será o financiamento: '))
+meses = int(anos*12)
+valorPrestacao = float(casa//meses)
+psal = int(salario*0.30)
+print('-=-'*20)
+print('O financiamento é de \033[32m{}\033[m meses e o valor da prestação é: \033[31m{}\033[m.'.format(meses, valorPrestacao))
+print('-=-'*20)
+print('30% do salario é: {}'.format(psal))
+if valorPrestacao > salario *0.30:
+    print('-=-' * 20)
+    print('\033[31mVocê não pode adiquirir o imóvel')
+else:
+    print('-=-' * 20)
+    print('\033[32mVocê pode comprar a casa')
