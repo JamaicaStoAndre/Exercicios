@@ -3,9 +3,9 @@ from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0,2)
 print('''Escolha suas opções:
-        [1] Pedra
-        [2] Papel
-        [3] Tesoura''')
+        [0] Pedra
+        [1] Papel
+        [2] Tesoura''')
 jogador = int(input('Qual é a sua Jogada: '))
 if jogador != 0 and jogador != 1 and jogador != 2:
     print('Escolha inválida, jogue novamente!!')
