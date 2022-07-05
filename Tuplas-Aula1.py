@@ -1,0 +1,23 @@
+print('As Tuplas são imutáveis!!')
+print('As Tuplas são imutáveis!!')
+print('As Tuplas são imutáveis!!')
+lanche = ('Suco', 'Hambúrguer', 'Pizza', 'Pudim')
+print(f'Todos Elementos: {lanche}')
+print(f'Tamanho do Elemento: {len(lanche)}')
+print(f'exibe de trás pra frente: {lanche[-2]}')
+print(f'Começa a contar no Segundo de traz pra frente e vai até o final: {lanche[-2:]}')
+print(f'do Nr1 até Nr3, exceto o último número: {lanche[1:3]}')
+print(f'do elemento 0 até o Elemento Nr1, pois exclui o último: {lanche[0:2]}')
+print(f'do elemento 2 até o final: {lanche[2:]}')
+print('Maneira Mais simples e escreve menos, mas não precisa de posíção')
+print('-='*20)
+for comida in lanche:
+    print(f'Eu vou Comer {comida}')
+print(f'-='*20)
+print('Melhor maneira se eu precisar usar a posição')
+for cont in range(0, len(lanche)):
+    print(f'Eu vou comer {lanche[cont]}, na posição {cont}')
+print(f'-='*20)
+print('Pra quando necessitar, o número da posição ou a posição do elemento, tem tbm o Enumerate')
+for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida}, na posição {pos}')
