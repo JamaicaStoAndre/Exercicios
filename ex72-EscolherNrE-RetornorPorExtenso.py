@@ -1,3 +1,4 @@
+#https://www.cursoemvideo.com/curso/python-3-mundo-3/aulas/tuplas-em-python/modulos/exercicio-72-numero-por-extenso/
 cont = ('zero', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis',
         'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'quatorze',
         'quinze', 'desesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
