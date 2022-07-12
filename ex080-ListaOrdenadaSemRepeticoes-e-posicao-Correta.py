@@ -8,7 +8,7 @@ for c in range(0, 5):
     if c == 0 or n > lista[-1]:# vou dar um append, se o ele for o primeiro "c == 0" ou se for mair que o úlitmo "or n > lista[-1]. lista[-1]=último elemento "
         lista.append(n)
     else:
-        pos = 0 # posição "pos"
+        pos = 0# posição "pos"
         while pos < len(lista):# vai varrer da posição 0 até a última posição
             if n <= lista[pos]:#verificar dentro de cada posição se o número é menor ou igual a ele, se for ele insere numa posição específica
                 lista.insert(pos, n)# insere na lista " lista.insert" na posição "pos" o valor digitado "n"
